@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Assessment\ 2\ GUI\ osm9\r\n\r\n\ @author\ (Seyed\ Omar\ Moulana)\r\n\ @version\ (26th\ March\ 2020)\r\n
+comment1.params=
+comment1.target=Game()
+comment2.params=
+comment2.target=void\ makeFrame()
+comment2.text=\r\n\ makeFrame\ -\ used\ to\ make\ 3\ panels\ with\ Jbuttons\ for\ squares.\r\n\ 1st\ panel\ is\ made\ with\ 2\ for\ loops,\r\n\ to\ go\ through\ each\ cell(1st\ row\ and\ then\ all\ the\ col,2nd\ row\ then\ all\ the\ col).\r\n\ 2nd/3rd\ is\ a\ simple\ panel.\r\n
+comment3.params=
+comment3.target=void\ Restart()
+comment3.text=\r\n\ Restarts\ everything(win\ condition,\ all\ squares\ and\ score)\r\n\ except\ the\ size\ because\ you'd\ have\ to\ resize\ it\ everytime\ you\ play\ a\ game.\r\n
+comment4.params=
+comment4.target=void\ disableButtons()
+comment4.text=\r\n\ disable\ buttons\ and\ take\ the\ bomb\ name\ away\r\n\ from\ the\ bomb\ square.\r\n\ Used\ when\ user\ either\ wins\ or\ loses.\r\n
+comment5.params=
+comment5.target=void\ getBomb()
+comment5.text=\r\n\ A\ while\ loop\ to\ go\ through\ all\ squares\ until\r\n\ it\ finds\ a\ random\ square\ that\ is\ not\ pressed(not\ the\ color\ yellow),\ and\ sets\ the\ name\ as\ bomb.\r\n\ breaks\ loop\ ones\ it\ does.\r\n
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.text=\r\n\ ActionListeners\ to\ change\ color,\ count\ scores,\r\n\ and\ bomb\ feature.\r\n\ Has\ a\ win\ condition\ based\ on\ difficulty.\r\n\ score\ increases\ count\ when\ a\ red\ square\ changes\ to\ yellow.\r\n\ getName\ of\ the\ square(button)\ to\ see\ if\ it\ has\ the\ name\ bomb,\r\n\ if\ not\ it\ changes\ color\ to\ yellow\ if\ its\ already\ not\ yellow.\r\n\ score\ doesn't\ increase\ when\ clicked\ on\ a\ yellow\ square.\r\n
+numComments=7
